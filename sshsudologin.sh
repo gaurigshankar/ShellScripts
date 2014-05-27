@@ -1,5 +1,5 @@
 #!/usr/bin/expect
-
+# pass all the params to the script as command line as mentioned below
 #Usage sshsudologin.expect <host> <ssh user> <ssh password> <su user> <su password>
 
 set timeout 60
