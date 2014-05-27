@@ -1,4 +1,6 @@
 #!/usr/bin/expect
+
+# courtesy : http://www.journaldev.com/1405/expect-script-example-for-ssh-and-su-login-and-running-commands
 # pass all the params to the script as command line as mentioned below
 #Usage sshsudologin.expect <host> <ssh user> <ssh password> <su user> <su password>
 
