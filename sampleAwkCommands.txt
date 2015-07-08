@@ -1,0 +1,15 @@
+
+Basic awk to search and print certain part of search result (Assuming space is the seperator between two coloumns which is default)
+-----------------------------------------------------------------------------------------------------------------------------------
+df -h | awk '/<<searchTermToBeSearched>>/ {print $<<columnNumerToBePrinted>>}'
+df -h | awk '/dev/ {print}'
+df -h | awk '/dev/ {print $5}'
+df -h | awk '/dev/ {print $1 $5}'
+df -h | awk '/dev/ {print $1 " " $5}'
+df -h | awk '/dev/ {print $1 " is " $5 " used."}'
+df -h | awk -F ":" '/dev/ {print $1}' -----> -F flag to be used to define the seperator to be used.If space is not the separator to be used
+
+IF awk needs to be performed on file input 
+-----------------------------------------
+awk '/gauri/ {print $1}' fileName.txt
+awk -F "," '/gauri/ {print $1}' fileName.txt   -----> For parsing csv file
