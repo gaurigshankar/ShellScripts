@@ -1,5 +1,5 @@
 
-Basic awk to search and print certain part of search result (Assuming space is the seperator between two coloumns which is default)
+Basic awk to search and print certain part of search result (Assuming space is the seperator between two coloumns/fields which is default)
 -----------------------------------------------------------------------------------------------------------------------------------
 df -h | awk '/<<searchTermToBeSearched>>/ {print $<<columnNumerToBePrinted>>}'
 df -h | awk '/dev/ {print}'
