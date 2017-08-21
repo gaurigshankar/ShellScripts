@@ -11,3 +11,8 @@ my frequently used shortcuts
 |---|----|----|
 |tmux a -t <<sessionName>>| create new session with a session name ||
 |` d | detach session | |
+|c   |        new window ||
+|,    |       name window ||
+|w    |       list windows || 
+|f    |      find window ||
+|&    |       kill window ||
