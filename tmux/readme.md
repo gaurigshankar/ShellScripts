@@ -1,7 +1,7 @@
 
 tmux is terminal multiplexer. Use it withe the ~/.tmux.conf with all the custom shortcuts
 
-` is the prefix used in the conf file as here
+` is the prefix used in the conf file as here bind key / modifier / leader
 
 
 
@@ -15,4 +15,5 @@ my frequently used shortcuts
 |,    |       name window ||
 |w    |       list windows || 
 |f    |      find window ||
-|&    |       kill window ||
+|&    |       kill window ||  
+| z | toggle zooom & restore the current pane ||
