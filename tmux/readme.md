@@ -9,5 +9,5 @@ my frequently used shortcuts
 
 | keys| use |comments|
 |---|----|----|
-|tmux a -t <<sessionName>>|||
-|` d | | |
+|tmux a -t <<sessionName>>| create new session with a session name ||
+|` d | detach session | |
